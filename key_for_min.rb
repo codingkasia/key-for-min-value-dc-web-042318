@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   new = name_hash.values
   new_arr = []
   name_hash.map do |k, v|
-    new_arr << v
+    new_arr = v
   end
   new_arr[0] 
   smallest = new[0]
