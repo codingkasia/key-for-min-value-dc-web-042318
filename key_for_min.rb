@@ -5,7 +5,6 @@ def key_for_min_value(name_hash)
   if(name_hash.size == 0)
     return nil 
   end
-  
   new = name_hash.values
   new_arr = []
   name_hash.map do |k, v|
