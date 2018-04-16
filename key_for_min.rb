@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     if(amount < smallest)
       smallest = amount
     end
-    "#{smallest} is #{name}"
+    smallest
   end
-  smallest
+  "#{smallest} is #{name}"
 end
