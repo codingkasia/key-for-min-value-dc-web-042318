@@ -8,7 +8,7 @@ if(name_hash.size == 0)
   return nil 
 else
   name_hash.collect do |name, amount| 
-    if(amount > largest)
+    if(amount < largest)
       largest = amount
     end
     largest
