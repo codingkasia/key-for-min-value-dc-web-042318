@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
     end
     smallest
   end
-  ikea.key(smallest)
+  name_hash.key(smallest)
 end
 
 
