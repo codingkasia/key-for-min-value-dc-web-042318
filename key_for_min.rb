@@ -16,4 +16,4 @@ def key_for_min_value(name_hash)
   "#{smallest} is #{name}"
 end
 
-ikea.select {|k,v| v = 24}
+ikea.select {|k,v| v = 25}
