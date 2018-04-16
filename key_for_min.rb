@@ -11,8 +11,7 @@ def key_for_min_value(name_hash)
   name_hash.map do |k, v|
     new_arr = v
   end
-  new_arr[0] 
-  smallest = new[0]
+  smallest = new_arr
   name_hash.collect do |name, amount| 
     if(amount < smallest)
       smallest = amount
